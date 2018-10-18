@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "vue": "^2.5.11",
-    "vue-amp-shadow": "^1.0.0"
+    "vue-amp-shadow": "^1.0.0",
+    "vue-router": "^3.0.1"
   },
   "browserslist": [
     "> 1%",

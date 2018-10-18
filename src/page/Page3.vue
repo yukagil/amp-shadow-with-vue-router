@@ -1,10 +1,5 @@
 <template>
-  <div>
-    <p>Component: Page3</p>
-    <p>---</p>
-    <amp-viewer src="../../amp/page3.html"></amp-viewer>
-    <p>---</p>
-  </div>
+  <amp-viewer src="../../amp/page3.html" />
 </template>
 
 <script>

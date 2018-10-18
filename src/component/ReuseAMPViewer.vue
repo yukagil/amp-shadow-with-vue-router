@@ -1,19 +1,17 @@
 <template>
-  <div>
-    <vue-amp-shadow
-      @click.native="linkClick"
-      :src="src"
-    />
-  </div>
+  <vue-amp-shadow
+    @click.native="linkClick"
+    :src="`../../amp/${pageName}.html`"
+  />
 </template>
 
 <script>
 import VueAmpShadow from "vue-amp-shadow";
 
 export default {
-  name: 'amp-viewer',
+  name: 'not-recycle-amp-viewer',
   props: {
-    src: {
+    pageName: {
       type: String,
       required: true
     }
